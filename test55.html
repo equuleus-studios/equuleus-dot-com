@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Equuleus</title>
+<style>
+    body {
+        background-color: #ffffff;
+        font-family: "Times New Roman", Times, serif;
+        color: #000000;
+        margin: 0;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    
+    /* MAIN CONTAINER */
+    .content-wrapper {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    /* HEADER STYLES */
+    h1 {
+        color: #000000;
+        font-weight: bold;
+        font-size: 42px;
+        margin: 0;
+        letter-spacing: 2px;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+    
+    /* SECTION HEADERS */
+    h2 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
+
+    /* TEXT STYLING */
+    p, li {
+        font-size: 17px;
+        line-height: 1.8;
+        text-align: justify;
+        margin-bottom: 15px;
+    }
+    
+    /* PRICING TABLE */
+    .pricing-table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .pricing-table th {
+        text-align: left;
+        padding: 15px;
+        border-bottom: 2px solid #000;
+        background-color: #f9f9f9;
+    }
+    .pricing-table td {
+        padding: 15px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    /* FAQ SPECIFIC */
+    .faq-q { font-weight: bold; margin-bottom: 5px; }
+    .faq-a { margin-top: 0; margin-bottom: 30px; margin-left: 20px; }
+
+    /* SEPARATOR */
+    .bottom-line {
+        border-top: 1px solid #000000;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+    
+    /* MANIFESTO DROPDOWN (No JS) */
+    details {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        color: #444;
+        cursor: pointer;
+        text-align: center;
+    }
+    summary {
+        font-style: italic;
+        text-decoration: none;
+        outline: none;
+    }
+    summary:hover {
+        text-decoration: underline;
+    }
+    .manifesto-text {
+        margin-top: 10px;
+        padding: 15px;
+        border: 1px solid #ccc;
+        background-color: #fcfcfc;
+        text-align: left;
+        font-size: 15px;
+    }
+    
+    /* Links within text */
+    a { color: #0000EE; }
+</style>
+</head>
+<body>
+
+<div class="content-wrapper">
+
+    <!-- HEADER TABLE -->
+    <table border="0" align="center" cellpadding="20" cellspacing="0">
+        <tr>
+            <td valign="middle">
+                <!-- Note: You may want to update this image src to a new logo -->
+                <img src="https://i.postimg.cc/05nQmq9j/Eq.png" height="80" alt="Testbed Icon">
+            </td>
+        </tr>
+    </table>
+    
+    <!-- Divider -->
+    <hr size="1" noshade color="#000000">
+
+    <!-- "WHY IS THIS UGLY" DROPDOWN (NO JS) -->
+    <details>
+        <summary>Why does this website look so basic?</summary>
+        <div class="manifesto-text">
+            <p><b>Efficiency, Privacy, and Function.</b></p>
+            <p>Modern web design is bloated. It is filled with trackers, heavy scripts, cookies, and unnecessary animations that waste energy and compromise your data. This website is a single static HTML file. It contains no Javascript, no analytics, and no cookies.</p>
+            <p>It loads instantly on any connection. It respects your privacy. It delivers exactly what you need: information.</p>
+        </div>
+    </details>
+
+    <!-- CONTENT SECTIONS -->
+    
+    <!-- PRESENTATION -->
+    <h2 style="color: #000080;">Presentation</h2>
+    
+    <p>We believe that identity should be simple. In a world full of noise, endless contracts, and corporate bureaucracy, we believe you deserve ownership of your image, with no strings attached.</p>
+    
+    <p>The way we work is simple. We strip away the account managers and the upsells. We simply listen to what you need and we model that intent into a visual. We focus on high contrast, clear geometry, and timelessness.</p>
+    
+    <p>What we happen to make are logos. Whether you need a symbol for a new project, a crest for a gaming clan, or a face for your startup, Equuleus delivers professional, scalable design files that are yours to keep.</p>
+
+    <!-- PRICING -->
+    <h2 style="color: #006400;">Pricing & Payment</h2>
+    
+    <table class="pricing-table">
+        <tr>
+            <th width="25%">OFFER</th>
+            <th width="15%">PRICE</th>
+            <th>INCLUDES</th>
+        </tr>
+        <tr>
+            <td><b>STANDARD</b></td>
+            <td>$80.00</td>
+            <td>One finalized logo delivered in standard file formats (PNG, JPG, SVG), with revisions until you're fully satisfied.</td>
+        </tr>
+        <tr>
+            <td><b>COMPLETE</b></td>
+            <td>$100.00</td>
+            <td>One finalized logo with additional visual variations, delivered in all standard formats, with revisions until you're fully satisfied.</td>
+        </tr>
+    </table>
+
+    <p style="margin-top: 30px;"><b>Terms:</b> 50% Deposit required to commence work. 50% Balance due upon completion.</p>
+    
+    <p><b>Accepted Currencies Only:</b></p>
+    <ul>
+        <li>Bitcoin (BTC)</li>
+        <li>Litecoin (LTC)</li>
+        <li>Monero (XMR)</li>
+    </ul>
+    <p><i>We do not accept credit cards, checks, or bank transfers.</i></p>
+
+    <!-- FAQ -->
+    <h2 style="color: #800000;">F.A.Q.</h2>
+    
+    <p class="faq-q">Q: What is the estimated turnaround time?</p>
+    <p class="faq-a">A: Standard execution time is between 48 to 72 hours.</p>
+
+    <p class="faq-q">Q: What are the payment terms?</p>
+    <p class="faq-a">A: We operate on a split-payment structure. A 50% deposit is required to initiate the design process. Upon your approval of the result, the remaining 50% balance must be settled prior to the transmission of the high-resolution files.</p>
+
+    <p class="faq-q">Q: Is a portfolio available for review?</p>
+    <p class="faq-a">A: No. To ensure the absolute anonymity of our service, we do not display the work of our past clients.</p>
+
+    <p class="faq-q">Q: Can you help out with branding services?</p>
+    <p class="faq-a">A: Along with the logo, we can help with your branding at no extra cost, if needed, unless you prefer to keep certain details of your business under wraps. While we won't create any materials, we can guide you in shaping the overall direction and tone of your brand.</p>
+
+    <p class="faq-q">Q: What details are required to initiate a commission?</p>
+    <p class="faq-a">A: As much detail as you can provide about the logo or style you’re looking for would be helpful. You’re not required to share anything about your business if you’d prefer not to.</p>
+
+    <!-- CONTACT -->
+    <h2 style="color: #008080;">Contact</h2>
+    <p><b>Email:</b><br>
+  <a href="mailto:admin@testbed.local" style="color:#000; text-decoration:underline;">equuleus-studios@proton.me</a><br>
+  <a href="mailto:support@testbed.local" style="color:#000; text-decoration:underline;">equuleus-studios@tutamail.com</a>
+</p>
+
+    <!-- Bottom line separator -->
+    <div class="bottom-line"></div>
+
+</div>
+
+</body>
+</html>
